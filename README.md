@@ -35,6 +35,13 @@ train_loader = get_loader(image_path=train_image,
 ```
 change the par first to start training  Myself use epoch 100
 after this, addd dense CRF model to fine the segmentation images
+```shell
+python CRF_detection.py
+```
+to start Adaboost detection
+```shell
+python adaboost_detection.py
+```
 the final result is :
 ![image](./result.png)
 
